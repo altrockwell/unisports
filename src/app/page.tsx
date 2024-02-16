@@ -1,6 +1,7 @@
+import NavBar from '@/components/navBar';
+
 function HomePage() {
-  const helloMessage = 'Hello World';
-  return <h1>Hello World</h1>;
+  return <></>;
 }
 
 export default HomePage;
