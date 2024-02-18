@@ -25,8 +25,7 @@ body {
   }
 
   .wrapper {
-    width: clamp(360px, 90vw, 1248px);
-    margin: 0 auto;
-    margin-top: 20px;
+    width: clamp(350px, 90vw, 1248px);
+    margin-inline: auto;
   }
 }
