@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
-  const overlayClassName = `fixed ${!isOpen ? 'hidden' : ' '} w-full h-full bg-white left-0 right-0 top-0 bottom-0`;
+  const overlayClassName = `z-50 bg-white fixed ${!isOpen ? 'hidden' : ' '} w-full h-full left-0 right-0 top-0 bottom-0`;
 
   return (
     <>
