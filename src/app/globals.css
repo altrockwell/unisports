@@ -28,4 +28,10 @@ body {
     width: clamp(350px, 90vw, 2248px);
     margin-inline: auto;
   }
+  .hero-text {
+    font-size: clamp(4rem, 5.5vw, 5.5rem);
+    line-height: 1;
+    width: clamp(350px, 30vw, 600px);
+    top: clamp(40px, 6rem, 100px);
+  }
 }
