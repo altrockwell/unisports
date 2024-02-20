@@ -29,9 +29,17 @@ body {
     margin-inline: auto;
   }
   .hero-text {
-    font-size: clamp(4rem, 5.5vw, 5.5rem);
+    @apply text-[40px] w-[227px] leading-4 md:text-[64px] md:w-[365px];
+    /* font-size: clamp(2.5rem, 5vw, 5.5rem); */
     line-height: 1;
-    width: clamp(350px, 30vw, 600px);
+    /* width: clamp(220px, 26vw, 480px); */
     top: clamp(40px, 6rem, 100px);
+  }
+  .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent; /* Adjust size as needed */
+    border-bottom: 20px solid transparent; /* Adjust size as needed */
+    border-left: 20px solid black; /* Adjust size and color as needed */
   }
 }
