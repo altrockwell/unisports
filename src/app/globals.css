@@ -7,12 +7,12 @@
   --background-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -29,7 +29,7 @@ body {
     margin-inline: auto;
   }
   .hero-text {
-    @apply text-[40px] w-[227px] leading-4 md:text-[64px] md:w-[365px];
+    @apply text-[40px] w-[227px] leading-4 md:text-[64px] md:w-[365px] xl:text-[60px] 2xl:text-[82.5px] 2xl:w-[450px];
     /* font-size: clamp(2.5rem, 5vw, 5.5rem); */
     line-height: 1;
     /* width: clamp(220px, 26vw, 480px); */
